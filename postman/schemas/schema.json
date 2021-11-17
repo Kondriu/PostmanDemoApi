@@ -1,0 +1,24 @@
+{
+    "info": {
+        "title": "SampleApi",
+        "version": "1.0.1",
+        "description": "demo api"
+    },
+    "openapi": "3.0.0",
+    "paths": {
+            "/": {
+            "get": {
+                "operationId": "listVersionsv2",
+                "summary": "List API versions",
+                "responses": {
+                "200": {
+                    "description": "200 300 response"
+                },
+                "300": {
+                    "description": "200 300 response"
+                }
+                }
+            }
+        }
+    }
+}
