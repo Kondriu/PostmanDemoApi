@@ -12,13 +12,21 @@
                 "summary": "List API versions",
                 "responses": {
                 "200": {
-                    "description": "200 300 response"
+                    "description": "200 response"
                 },
                 "300": {
-                    "description": "200 300 response"
+                    "description": "300 response"
                 }
                 }
             }
         }
-    }
+    },
+    "security": [
+            {
+                "OAuth2": [
+                    "read",
+                    "write"
+                ]
+            }
+        ]
 }
